@@ -13,7 +13,7 @@
                                     <h1 data-animation="fadeInLeft" data-delay="0.2s">{{ __('messages.home-title') }}</h1>
                                     <p data-animation="fadeInLeft" data-delay="0.4s">
                                         {{ __('messages.home-title-description') }}</p>
-                                    <a href="#" class="btn hero-btn" data-animation="fadeInLeft"
+                                    <a href="https://wa.me/+5541997472046?" class="btn hero-btn" data-animation="fadeInLeft"
                                         data-delay="0.7s">{{ __('messages.contact-home') }} <i
                                             class="ti-arrow-right"></i></a>
                                 </div>
@@ -31,7 +31,7 @@
                                     </h1>
                                     <p data-animation="fadeInLeft" data-delay="0.4s">
                                         {{ __('messages.home-title-description') }}</p>
-                                    <a href="#" class="btn hero-btn" data-animation="fadeInLeft"
+                                    <a href="https://wa.me/+5541997472046?" class="btn hero-btn" data-animation="fadeInLeft"
                                         data-delay="0.7s">{{ __('messages.contact-home') }} <i
                                             class="ti-arrow-right"></i></a>
                                 </div>
@@ -234,7 +234,7 @@
                             <div class="gallery-img" style="background-image: url(img/gallery/gallery2.png);"></div>
                             <div class="thumb-content-box">
                                 <div class="thumb-content">
-                                    <h3><a href="#">{{ __('messages.help') }}</a></h3>
+                                    <h3><a href="https://wa.me/+5541997472046?   ">{{ __('messages.help') }}</a></h3>
                                     <p>{{__('messages.help-2')}}</p>
                                 </div>
                             </div>

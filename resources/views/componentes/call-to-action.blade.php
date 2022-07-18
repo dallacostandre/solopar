@@ -9,7 +9,7 @@
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-3 col-md-4">
-                    <a href="#" class="btn w-btn wantToWork-btn">{{__('messages.quote')}} <i class="ti-arrow-right"></i></a>
+                    <a href="https://wa.me/+5541997472046?" class="btn w-btn wantToWork-btn">{{__('messages.quote')}} <i class="ti-arrow-right"></i></a>
                 </div>
             </div>
         </div>
