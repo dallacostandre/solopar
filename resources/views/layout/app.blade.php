@@ -65,11 +65,11 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html"><img src="img/logo/logo.webp" alt="solopar-fundações-cravaçãoe-sondagens"></a>
+                                    <a href="{{route('home')}}"><img src="img/logo/logo.webp" alt="solopar-fundações-cravaçãoe-sondagens" width:'50%'></a>
                                 </div>
                             </div>
                             <div class="col-xl-9 col-lg-8">
-                                <div class="menu-wrapper  d-flex align-items-center">
+                                <div class="menu-wrapper d-flex text-right">
                                     <!-- Main-menu -->
                                     <div class="main-menu d-none d-lg-block">
                                         <nav> 
@@ -77,7 +77,7 @@
                                                 <li><a href="{{route('home')}}">{{__('messages.web-site-name')}}</a></li>
                                                 <li><a href="{{route('about')}}">{{__('messages.about')}}</a></li>
                                                 <li><a href="{{route('services')}}">{{__('messages.services')}}</a></li>
-                                                <li><a href="{{route('projects')}}">{{__('messages.projects')}}</a></li>
+                                                {{-- <li><a href="{{route('projects')}}">{{__('messages.projects')}}</a></li> --}}
                                                 {{-- <li><a href="{{route('blog')}}">Blog</a>
                                                     <ul class="submenu">
                                                         <li><a href="{{route('blog')}}">Blog</a></li>
@@ -138,6 +138,7 @@
                                     <li><a href="#">{{__('messages.service2')}}</a></li>
                                     <li><a href="#">{{__('messages.service3')}}</a></li>
                                     <li><a href="#">{{__('messages.service4')}}</a></li>
+                                    <li><a href="#">{{__('messages.service5')}}</a></li>
                                 </ul>
                             </div>
                         </div>
