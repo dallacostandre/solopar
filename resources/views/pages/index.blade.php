@@ -14,8 +14,9 @@
                                     <p data-animation="fadeInLeft" data-delay="0.4s">
                                         {{ __('messages.home-title-description') }}</p>
                                     <a href="https://wa.me/+5541997472046?" class="btn hero-btn" data-animation="fadeInLeft"
-                                        data-delay="0.7s">{{ __('messages.contact-home') }} <i
-                                            class="ti-arrow-right"></i></a>
+                                        data-delay="0.7s">{{ __('messages.contact-home') }} 
+                                        <i class="ti-arrow-right"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -32,8 +33,9 @@
                                     <p data-animation="fadeInLeft" data-delay="0.4s">
                                         {{ __('messages.home-title-description') }}</p>
                                     <a href="https://wa.me/+5541997472046?" class="btn hero-btn" data-animation="fadeInLeft"
-                                        data-delay="0.7s">{{ __('messages.contact-home') }} <i
-                                            class="ti-arrow-right"></i></a>
+                                        data-delay="0.7s">{{ __('messages.contact-home') }} 
+                                        <i class="ti-arrow-right"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -41,10 +43,10 @@
                 </div>
             </div>
             <!-- Video icon -->
-            <div class="video-icon">
+            {{-- <div class="video-icon">
                 <a class="popup-video btn-icon" href="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100081344250484%2Fvideos%2F729715184738553%2F&show_text=false&width=476&t=0https://www.facebook.com/100081344250484/videos/729715184738553/" data-animation="bounceIn"
                     data-delay=".4s"><i class="fas fa-play"></i></a>
-            </div>
+            </div> --}}
         </div>
         <!-- slider Area End-->
         <!--? About 1 Start-->
@@ -164,7 +166,7 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10">
                         <div class="section-tittle text-center mb-100">
-                            <span class="element">{{ __('messages.projects') }}</span>
+                            <span class="element">{{ __('messages.clientes') }}</span>
                             <h2>{{ __('messages.projects-title') }}</h2>
                         </div>
                     </div>
@@ -176,26 +178,26 @@
                             <!-- Single Testimonial -->
                             <div class="single-testimonial">
                                 <div class="testimonial-caption">
-                                    <p>{{ __('messages.testimonial-caption-1') }}</p>
+                                    <p>{{ __('messages.testimonial-1') }}</p>
                                     <div class="rattiong-caption">
-                                        <span>{{ __('messages.service1') }}</span>
+                                        <span>{{ __('messages.testimonial-name') }}</span>
                                     </div>
                                 </div>
                             </div>
                             <!-- Single Testimonial -->
-                            <div class="single-testimonial">
+                            {{-- <div class="single-testimonial">
                                 <div class="testimonial-caption">
                                     <p>{{ __('messages.testimonial-caption-2') }}</p>
                                     <div class="rattiong-caption">
                                         <span>{{ __('messages.service2') }}</span>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="single-testimonial">
+                            </div> --}}
+                            {{-- <div class="single-testimonial">
                                 <div class="testimonial-caption">
                                     <p>{{ __('messages.testimonial-caption-3') }}</p>
                                     <div class="rattiong-caption">
-                                        <span>{{ __('messages.service3') }}</span>
+                                        <span>{{ __('messages.testimonial-2') }}</span>
                                     </div>
                                 </div>
                             </div>
@@ -203,10 +205,10 @@
                                 <div class="testimonial-caption">
                                     <p>{{ __('messages.testimonial-caption-4') }}</p>
                                     <div class="rattiong-caption">
-                                        <span>{{ __('messages.service4') }}</span>
+                                        <span>{{ __('messages.testimonial-3') }}</span>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">

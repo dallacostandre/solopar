@@ -41,7 +41,7 @@
 }
 
 .my-float{
-	margin-top:16px;
+	margin-top:12px;
 }
     </style>
 </head>
@@ -68,8 +68,11 @@
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left">
                                     <ul>     
+                                        <li><i class="fab fa-whatsapp"></i> <a href="http://wa.me/{{__('messages.whatsapp_number')}}" target="_blank" >{{__('messages.whatsapp')}}</a></li>
                                         <li><i class="fas fa-phone"></i> <a href="tel:{{__('messages.phone')}}">{{__('messages.phone')}}</a></li>
                                         <li><i class="far fa-envelope"></i><a href="mailto:{{__('messages.email')}}"> {{__('messages.email')}}</a></li>
+                                        <li><a href="{{__('messages.facebook')}}"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="{{__('messages.instagram')}}"><i class="fa fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="header-info-right">
@@ -158,11 +161,9 @@
                             <div class="footer-tittle">
                                 <h4>{{__('messages.services')}}</h4>
                                 <ul>
-                                    <li><a href="#">{{__('messages.service1')}}</a></li>
-                                    <li><a href="#">{{__('messages.service2')}}</a></li>
-                                    <li><a href="#">{{__('messages.service3')}}</a></li>
-                                    <li><a href="#">{{__('messages.service4')}}</a></li>
-                                    <li><a href="#">{{__('messages.service5')}}</a></li>
+                                    <li><a href="javascript:void(0)">{{__('messages.service4')}}</a></li>
+                                    <li><a href="javascript:void(0)">{{__('messages.service_footer_2')}}</a></li>
+                                    <li><a href="javascript:void(0)">{{__('messages.service5')}}</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -178,8 +179,12 @@
                                 </div>
                             </div>
                             <div class="footer-number">
-                                <p>Contato: {{__('messages.phone')}}</p>
-                                <p>Email: {{__('messages.email')}}</p>
+                                <p>Contato: <br>
+                                    <span class="info1">{{__('messages.phone')}}</span></p>
+                                <p>WhatsApp: <br>
+                                    <a href="http://wa.me/+5541997472046" style="color: #11295E">{{__('messages.whatsapp')}}</a></p>
+                                <p>Email: <br>
+                                    <span class="info1">{{__('messages.email')}}</span></p>
                             </div>
                         </div>
                         
@@ -200,10 +205,8 @@
                         <div class="col-xl-3 col-lg-4">
                             <!-- Footer Social -->
                             <div class="footer-social f-right">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fas fa-globe"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="{{__('messages.facebook')}}"><i class="fab fa-facebook-f"></i></a>
+                                <a href="{{__('messages.instagram')}}"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -224,7 +227,7 @@
     <!-- Search model end -->
     <!-- Scroll Up -->
     <div id="back-top" >
-        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+        <a title="Voltar ao Topo" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
 
     <!-- JS here -->

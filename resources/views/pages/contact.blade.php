@@ -7,7 +7,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="hero-cap hero-cap2 text-center">
+                        <div class="hero-cap hero-cap2">
                             <h2>{{__('messages.get-in-touch')}}</h2>
                         </div>
                     </div>
@@ -63,9 +63,16 @@
                         </div>
                     </div>
                     <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="fab fa-whatsapp"></i></span>
+                        <div class="media-body">
+                            <h3><a href="http://wa.me/+5541997472046">{{__('messages.whatsapp')}}</a></h3>
+                            <p><a href="http://wa.me/+5541997472046" style="color: gray">Enviar Mensagem</a></p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                         <div class="media-body">
-                            <h3>(41) 99747-2046</h3>
+                            <h3>{{__('messages.phone')}}</h3>
                             <p>Seg. a Sex. 9h00 a 18h00</p>
                         </div>
                     </div>

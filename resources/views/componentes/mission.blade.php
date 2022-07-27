@@ -15,7 +15,7 @@
                         <img src="img/gallery/icon1.png" alt="solopar-fundações-cravaçãoe-sondagens">
                     </div>
                     <div class="cat-cap">
-                        <h5><a href="services.html">{{__('messages.service-item-1')}}</a></h5>
+                        <h5><a href="#">{{__('messages.service-item-1')}}</a><br></h5>
                         <p>{{__('messages.service-item-1-description')}}</p>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                         <img src="img/gallery/icon2.png" alt="solopar-fundações-cravaçãoe-sondagens">
                     </div>
                     <div class="cat-cap">
-                        <h5><a href="services.html">{{__('messages.service-item-2')}}</a></h5>
+                        <h5><a href="#">{{__('messages.service-item-2')}}</a></h5>
                         <p>{{__('messages.service-item-1-description')}}</p>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                         <img src="img/gallery/icon3.png" alt="solopar-fundações-cravaçãoe-sondagens">
                     </div>
                     <div class="cat-cap">
-                        <h5><a href="services.html">{{__('messages.service-item-3')}}</a></h5>
+                        <h5><a href="#">{{__('messages.service-item-3')}}</a><br></h5>
                         <p>{{__('messages.service-item-1-description')}}</p>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                         <img src="img/gallery/icon4.png" alt="solopar-fundações-cravaçãoe-sondagens">
                     </div>
                     <div class="cat-cap">
-                        <h5><a href="services.html">{{__('messages.service-item-4')}}</a></h5>
+                        <h5><a href="#">{{__('messages.service-item-4')}}</a><br></h5>
                         <p>{{__('messages.service-item-4-description')}}</p>
                     </div>
                 </div>
