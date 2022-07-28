@@ -7,10 +7,10 @@
         }
 
         .image_service {
-                width: 50%
-            }
+            width: 50%
+        }
 
-            @media (max-width: 575px) {
+        @media (max-width: 575px) {
             .image_service {
                 width: 100%
             }
@@ -42,8 +42,9 @@
                             {{-- <div class="cat-icon">
                             <img src="img/gallery/icon1.png" alt="solopar-fundações-cravaçãoe-sondagens">
                         </div> --}}
-                        <div class="cat-cap">
-                                <h5 class="text-center" style="margin-top: 30px;"><a href="#">{{ __('messages.barracoes') }}</a></h5>
+                            <div class="cat-cap">
+                                <h5 class="text-center" style="margin-top: 30px;"><a
+                                        href="#">{{ __('messages.barracoes') }}</a></h5>
                                 <div class="text-center">
                                     <img src="img/servicos/barracao.jpeg" alt="solopar-fundações-cravaçãoe-sondagens"
                                         class="image_service">
@@ -60,7 +61,8 @@
                             <img src="img/gallery/icon2.png" alt="solopar-fundações-cravaçãoe-sondagens">
                         </div> --}}
                             <div class="cat-cap">
-                                <h5 class="text-center" style="margin-top: 30px;"><a href="#">{{ __('messages.predios') }}</a></h5>
+                                <h5 class="text-center" style="margin-top: 30px;"><a
+                                        href="#">{{ __('messages.predios') }}</a></h5>
                                 <div class="text-center">
                                     <img src="img/servicos/fundacao-de-predio.jpeg"
                                         alt="solopar-fundações-cravaçãoe-sondagens" class="image_service">
@@ -76,7 +78,8 @@
                             <img src="img/gallery/icon3.png" alt="solopar-fundações-cravaçãoe-sondagens">
                         </div> --}}
                             <div class="cat-cap">
-                                <h5 class="text-center" style="margin-top: 30px;"><a href="#">{{ __('messages.viadutos') }}</a></h5>
+                                <h5 class="text-center" style="margin-top: 30px;"><a
+                                        href="#">{{ __('messages.viadutos') }}</a></h5>
                                 <div class="text-center">
                                     <img src="img/servicos/viaduto.jpeg" alt="solopar-fundações-cravaçãoe-sondagens"
                                         class="image_service">
@@ -93,7 +96,8 @@
                             <img src="img/gallery/icon4.png" alt="solopar-fundações-cravaçãoe-sondagens">
                         </div> --}}
                             <div class="cat-cap">
-                                <h5 class="text-center" style="margin-top: 30px;"><a href="#">{{ __('messages.pontes') }}</a></h5>
+                                <h5 class="text-center" style="margin-top: 30px;"><a
+                                        href="#">{{ __('messages.pontes') }}</a></h5>
                                 <div class="text-center">
                                     <img src="img/servicos/contencao.jpeg" alt="solopar-fundações-cravaçãoe-sondagens"
                                         class="image_service">
@@ -109,7 +113,8 @@
                             <img src="img/gallery/icon4.png" alt="solopar-fundações-cravaçãoe-sondagens">
                         </div> --}}
                             <div class="cat-cap">
-                                <h5 class="text-center" style="margin-top: 30px;"><a href="#">{{ __('messages.service4') }}</a></h5>
+                                <h5 class="text-center" style="margin-top: 30px;"><a
+                                        href="#">{{ __('messages.service4') }}</a></h5>
                                 <div class="text-center">
                                     <img src="img/servicos/cravacao.jpeg" alt="solopar-fundações-cravaçãoe-sondagens"
                                         class="image_service">
@@ -124,8 +129,9 @@
                             {{-- <div class="cat-icon">
                             <img src="img/gallery/icon4.png" alt="solopar-fundações-cravaçãoe-sondagens">
                         </div> --}}
-                        <div class="cat-cap">
-                                <h5 class="text-center" style="margin-top: 30px;"><a href="#">{{ __('messages.service_footer_2') }}</a></h5>
+                            <div class="cat-cap">
+                                <h5 class="text-center" style="margin-top: 30px;"><a
+                                        href="#">{{ __('messages.service_footer_2') }}</a></h5>
                                 <div class="text-center">
                                     <img src="img/servicos/sondagem.jpeg" alt="solopar-fundações-cravaçãoe-sondagens"
                                         class="image_service">
@@ -142,7 +148,8 @@
                             <img src="img/gallery/icon4.png" alt="solopar-fundações-cravaçãoe-sondagens">
                         </div> --}}
                             <div class="cat-cap">
-                                <h5 class="text-center" style="margin-top: 30px;"><a href="#">{{ __('messages.service5') }}</a></h5>
+                                <h5 class="text-center" style="margin-top: 30px;"><a
+                                        href="#">{{ __('messages.service5') }}</a></h5>
                                 <div class="text-center">
                                     <img src="img/servicos/projetos.jpeg" alt="solopar-fundações-cravaçãoe-sondagens"
                                         class="image_service">
