@@ -86,8 +86,5 @@ return [
     'name' => "Insira seu nome",
     'subject' => "Assunto",
     'email-message-page' => "Envie-nos a sua consulta a qualquer momento!",
-    'address-2' => "Rua Magdalena de Almeida, 224 - Capão Raso",
-    
-    
-    
+    'address-2' => "Rua Magdalena de Almeida, 224 - Capão Raso",  
 ];
