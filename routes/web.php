@@ -32,12 +32,12 @@ Route::post('/email', function (Request $request) {
             'content' => $request->content,
         ],
         function ($m) {
-            $m->from('dallacosta.andre@gmail.com', 'Solopar Fundacoes');
-            $m->to('dallacosta.andre@gmail.com');
+            $m->from('contato@soloparfundacoes.com.br', 'WebSite');
+            $m->to('contato@soloparfundacoes.com.br');
             $m->subject('Novo Solicitacao via Site');
         }
     );
-    return view('pages.index');
+    // return view('pages.index');
 });
 
 
