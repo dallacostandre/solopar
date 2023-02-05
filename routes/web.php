@@ -37,8 +37,7 @@ Route::post('/email', function (Request $request) {
             $m->subject('Novo Solicitacao via Site');
         }
     );
-    // return view('pages.index');
-    dd('aqui');
+    return view('pages.index');
 });
 
 
