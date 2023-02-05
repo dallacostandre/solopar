@@ -32,8 +32,8 @@ Route::post('/email', function (Request $request) {
             'content' => $request->content,
         ],
         function ($m) {
-            $m->from('contato@soloparfundacoes.com.br', 'WebSite');
-            $m->to('contato@soloparfundacoes.com.br');
+            $m->from('contato@soloparfundacoes.com.br', 'Solopar Site');
+            $m->to('soloparfundacoes@hotmail.com');
             $m->subject('Novo Solicitacao via Site');
         }
     );
