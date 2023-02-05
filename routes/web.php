@@ -38,6 +38,7 @@ Route::post('/email', function (Request $request) {
         }
     );
     // return view('pages.index');
+    dd('aqui');
 });
 
 
