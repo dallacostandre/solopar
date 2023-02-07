@@ -142,7 +142,7 @@
 
     <footer>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="https://api.whatsapp.com/send?phone=+5541997472046" class="float" target="_blank">
+<a href="http://wa.me/{{__('messages.whatsapp_number')}}" class="float" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>
 </a>
         <!-- Footer Start-->
