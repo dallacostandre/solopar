@@ -42,14 +42,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Video icon -->
-            {{-- <div class="video-icon">
-                <a class="popup-video btn-icon" href="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100081344250484%2Fvideos%2F729715184738553%2F&show_text=false&width=476&t=0https://www.facebook.com/100081344250484/videos/729715184738553/" data-animation="bounceIn"
-                    data-delay=".4s"><i class="fas fa-play"></i></a>
-            </div> --}}
         </div>
-        <!-- slider Area End-->
-        <!--? About 1 Start-->
         <section class="about-low-area section-padding40">
             <div class="container">
                 <div class="row justify-content-between">
@@ -100,61 +93,7 @@
         @component('componentes.mission')
         @endcomponent
 
-        <!-- cat End -->
-        <!-- Services Area start -->
-        {{-- <div class="service-area section-bg" data-background="img/gallery/section_bg01.png">
-        <div class="container">
-            <div class="row align-items-end no-gutters">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="single-main position-relative">
-                        <div class="single-wrapper active">
-                            <div class="single-services ">
-                                <span>01.</span>
-                                <h4>Building Yead</h4>
-                                <p>We collect and analyze information about your general usage of the website to the products services and courses.</p>
-                            </div>
-                            <div class="services-btn">
-                                <a href="project.html">View More</a>
-                            </div>
-                        </div>
-                        <span class="transparrent-btn active position-absolute">02. Meghna Bridge</span>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="single-main position-relative ">
-                        <div class="single-wrapper hide">
-                            <div class="single-services ">
-                                <span>02.</span>
-                                <h4>Meghna Bridge</h4>
-                                <p>We collect and analyze information about your general usage of the website to the products services and courses.</p>
-                            </div>
-                            <div class="services-btn">
-                                <a href="project.html">View More</a>
-                            </div>
-                        </div>
-                        <span class="transparrent-btn position-absolute">02. Meghna Bridge</span>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="single-main position-relative">
-                        <div class="single-wrapper hide">
-                            <div class="single-services ">
-                                <span>03.</span>
-                                <h4>Kalis Vadru</h4>
-                                <p>We collect and analyze information about your general usage of the website to the products services and courses.</p>
-                            </div>
-                            <div class="services-btn">
-                                <a href="project.html">View More</a>
-                            </div>
-                        </div>
-                        <span class="transparrent-btn position-absolute">03. Kalis Vadru</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div> --}}
-        <!-- Services Area End -->
-        <!-- Want To work -->
+
         @component('componentes.call-to-action')
         @endcomponent
 
@@ -180,39 +119,70 @@
                                 <div class="testimonial-caption">
                                     <p>{{ __('messages.testimonial-1') }}</p>
                                     <div class="rattiong-caption">
-                                        <span>{{ __('messages.testimonial-name') }}</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Testimonial -->
-                            {{-- <div class="single-testimonial">
-                                <div class="testimonial-caption">
-                                    <p>{{ __('messages.testimonial-caption-2') }}</p>
-                                    <div class="rattiong-caption">
-                                        <span>{{ __('messages.service2') }}</span>
-                                    </div>
-                                </div>
-                            </div> --}}
-                            {{-- <div class="single-testimonial">
-                                <div class="testimonial-caption">
-                                    <p>{{ __('messages.testimonial-caption-3') }}</p>
-                                    <div class="rattiong-caption">
-                                        <span>{{ __('messages.testimonial-2') }}</span>
+                                        <span>{{ __('messages.testimonial-name-1') }}</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="single-testimonial">
                                 <div class="testimonial-caption">
-                                    <p>{{ __('messages.testimonial-caption-4') }}</p>
+                                    <p>{{ __('messages.testimonial-2') }}</p>
                                     <div class="rattiong-caption">
-                                        <span>{{ __('messages.testimonial-3') }}</span>
+                                        <span>{{ __('messages.testimonial-name-2') }}</span>
                                     </div>
                                 </div>
-                            </div> --}}
+                            </div><div class="single-testimonial">
+                                <div class="testimonial-caption">
+                                    <p>{{ __('messages.testimonial-3') }}</p>
+                                    <div class="rattiong-caption">
+                                        <span>{{ __('messages.testimonial-name-3') }}</span>
+                                    </div>
+                                </div>
+                            </div><div class="single-testimonial">
+                                <div class="testimonial-caption">
+                                    <p>{{ __('messages.testimonial-4') }}</p>
+                                    <div class="rattiong-caption">
+                                        <span>{{ __('messages.testimonial-name-4') }}</span>
+                                    </div>
+                                </div>
+                            </div><div class="single-testimonial">
+                                <div class="testimonial-caption">
+                                    <p>{{ __('messages.testimonial-5') }}</p>
+                                    <div class="rattiong-caption">
+                                        <span>{{ __('messages.testimonial-name-5') }}</span>
+                                    </div>
+                                </div>
+                            </div><div class="single-testimonial">
+                                <div class="testimonial-caption">
+                                    <p>{{ __('messages.testimonial-6') }}</p>
+                                    <div class="rattiong-caption">
+                                        <span>{{ __('messages.testimonial-name-6') }}</span>
+                                    </div>
+                                </div>
+                            </div><div class="single-testimonial">
+                                <div class="testimonial-caption">
+                                    <p>{{ __('messages.testimonial-7') }}</p>
+                                    <div class="rattiong-caption">
+                                        <span>{{ __('messages.testimonial-name-7') }}</span>
+                                    </div>
+                                </div>
+                            </div><div class="single-testimonial">
+                                <div class="testimonial-caption">
+                                    <p>{{ __('messages.testimonial-8') }}</p>
+                                    <div class="rattiong-caption">
+                                        <span>{{ __('messages.testimonial-name-8') }}</span>
+                                    </div>
+                                </div>
+                            </div><div class="single-testimonial">
+                                <div class="testimonial-caption">
+                                    <p>{{ __('messages.testimonial-9') }}</p>
+                                    <div class="rattiong-caption">
+                                        <span>{{ __('messages.testimonial-name-9') }}</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <!-- slider -->
                         <div class="single-man-slider">
                             <div class="man-slider-active">
                                 <div class="single-mam-img">

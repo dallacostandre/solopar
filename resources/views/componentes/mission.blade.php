@@ -26,7 +26,7 @@
                         <img src="img/gallery/icon2.png" alt="solopar-fundações-cravaçãoe-sondagens">
                     </div>
                     <div class="cat-cap">
-                        <h5><a href="#">{{__('messages.service-item-2')}}</a></h5>
+                        <h5><a href="#">{{__('messages.service-item-2')}}</a><br></h5>
                         <p>{{__('messages.service-item-1-description')}}</p>
                     </div>
                 </div>
