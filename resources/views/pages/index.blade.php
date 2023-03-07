@@ -198,12 +198,8 @@
                 </div>
             </div>
         </section>
-        <!-- About  End-->
-        <!--? Gallery Area Start -->
         @component('componentes.gallery')
         @endcomponent
-        <!-- Gallery Area End -->
-        <!--? Categories Area Start -->
         @component('componentes.mission')
         @endcomponent
 
@@ -225,14 +221,11 @@
         @component('componentes.call-to-action')
         @endcomponent
 
-        <!-- Want To work End -->
-        <!-- Contact form Start -->
         <div class="contact-form testimonial-area section-padding40 mb-40">
             <div class="container">
-                <!-- Section Tittle -->
                 <div class="row justify-content-center">
                     <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10">
-                        <div class="section-tittle text-center mb-100">
+                        <div class="section-tittle text-center mb-100" id="depoimentoss">
                             <span class="element">{{ __('messages.clientes') }}</span>
                             <h2>{{ __('messages.projects-title') }}</h2>
                         </div>

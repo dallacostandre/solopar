@@ -1,7 +1,7 @@
 <div class="categories-area section-padding40 gray-bg">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-xl-7 col-lg-8">
+            <div class="col-xl-12 col-lg-12">
                 <div class="section-tittle text-center mb-100">
                     <span class="element">{{__('messages.mission')}}</span>
                     <h2>{{__('messages.extra-text-2')}}</h2>

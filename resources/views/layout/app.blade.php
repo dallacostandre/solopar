@@ -154,8 +154,8 @@
                             <div class="footer-tittle">
                                 <h4>{{__('messages.company')}}</h4>
                                 <ul>
-                                    <li><a href="#">{{__('messages.why')}}</a></li>
-                                    <li><a href="#"> {{__('messages.review')}}</a></li>
+                                    <li><a href="{{URL('/sobre-a-solopar')}}">{{__('messages.why')}}</a></li>
+                                    <li><a href="#depoimentoss"> {{__('messages.review')}}</a></li>
                                     {{-- <li><a href="#">{{__('messages.customers')}}</a></li> --}}
                                 </ul>
                             </div>
@@ -166,9 +166,9 @@
                             <div class="footer-tittle">
                                 <h4>{{__('messages.services')}}</h4>
                                 <ul>
-                                    <li><a href="javascript:void(0)">{{__('messages.service4')}}</a></li>
-                                    <li><a href="javascript:void(0)">{{__('messages.service_footer_2')}}</a></li>
-                                    <li><a href="javascript:void(0)">{{__('messages.service5')}}</a></li>
+                                    <li><a href="{{URL('/servicos-da-solopar')}}">Cravação de Estacas</a></li>
+                                    <li><a href="{{URL('/servicos-da-solopar')}}">Sondagem SPT</a></li>
+                                    <li><a href="{{URL('/servicos-da-solopar')}}">Projeto de Fundação</a></li>
                                 </ul>
                             </div>
                         </div>
