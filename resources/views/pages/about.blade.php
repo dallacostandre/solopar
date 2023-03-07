@@ -25,7 +25,7 @@
                         <!-- Section Tittle -->
                         <div class="section-tittle mb-35">
                             <span class="element">{{__('messages.about-us')}}</span>
-                            <h2>{{__('messages.company')}}</h2>
+                            <h2>Bem-vindo a Solopar Fundações</h2>
                         </div>
                         <p style="text-align: justify">{{__('messages.about-us-description')}}</p>
                     </div>
