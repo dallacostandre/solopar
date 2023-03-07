@@ -314,16 +314,16 @@
                         <div class="single-man-slider">
                             <div class="man-slider-active">
                                 <div class="single-mam-img">
-                                    <img src="img/gallery/man1.png" alt="solopar-fundações-cravaçãoe-sondagens">
+                                    <img src="img/gallery/man1.png" alt="solopar-fundações-cravação-e-sondagens">
                                 </div>
                                 <div class="single-mam-img">
-                                    <img src="img/gallery/man2.png" alt="solopar-fundações-cravaçãoe-sondagens">
+                                    <img src="img/gallery/man2.png" alt="solopar-fundações-cravação-e-sondagens">
                                 </div>
                                 <div class="single-mam-img">
-                                    <img src="img/gallery/man3.png" alt="solopar-fundações-cravaçãoe-sondagens">
+                                    <img src="img/gallery/man3.png" alt="solopar-fundações-cravação-e-sondagens">
                                 </div>
                                 <div class="single-mam-img">
-                                    <img src="img/gallery/man4.png" alt="solopar-fundações-cravaçãoe-sondagens">
+                                    <img src="img/gallery/man4.png" alt="solopar-fundações-cravação-e-sondagens">
                                 </div>
                             </div>
                         </div>
