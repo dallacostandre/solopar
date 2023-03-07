@@ -24,14 +24,13 @@ return [
     'service4' => 'Cravação de Estacas',
     'service5' => 'Projeto de Fundação',
     'service-item-1' => 'PROJETOS DE FUNDAÇÕES',
-    'service-item-1-description' => 'Projeto de fundações é essencial para garantir a segurança e estabilidade de edificações, considerando características do solo, carga a ser suportada e condições climáticas. É um processo técnico e minucioso que demanda conhecimentos específicos de engenharia e geologia.',
     'service-item-2' => 'estaca Pré-moldada',
     'service-item-3' => 'Bate-estaca',
     'service-item-4' => 'Sondagem SPT',
-    'service-item-4-description' => 'A Sondagem SPT (Standard Penetration Test) é uma técnica de investigação do 
-solo que consiste na cravação de um amostrador padronizado, permitindo a 
-coleta de amostras e medição da resistência do solo, sendo uma ferramenta 
-essencial em projetos geotécnicos.',
+    'service-item-description-1' => 'Projeto de fundações é essencial para garantir a segurança e estabilidade de edificações, considerando características do solo, carga a ser suportada e condições climáticas. É um processo técnico e minucioso que demanda conhecimentos específicos de engenharia e geologia.',
+    'service-item-description-2' => 'As estacas pré-moldadas são elementos estruturais de concreto, madeira e aço, utilizados na construção civil, que oferecem diversos benefícios como maior  rapidez e limpeza na execução da obra, menor custo de mão de obra e maior resistência e durabilidade.',
+    'service-item-description-3' => 'O bate-estacas mecânico é uma ferramenta utilizada na construção civil para cravar estacas de concreto, aço ou madeira no solo, proporcionando uma base sólida para edifícios, pontes e outras estruturas. Ele é capaz de aplicar uma força constante e controlada, garantindo maior eficiência e precisão na instalação das estacas.',
+    'service-item-description-4' => 'A Sondagem SPT (Standard Penetration Test) é uma técnica de investigação do  solo que consiste na cravação de um amostrador padronizado, permitindo a coleta de amostras e medição da resistência do solo, sendo uma ferramenta essencial em projetos geotécnicos.',
     'copy' => "Copyright ©2022 Todos os direitos Reservados - Desenvolvido por ",
     'home-title' => "Solopar Fundações Obras & Fundações",
     'home-title-description' => "Lider em fundações, cravação e sondagens",

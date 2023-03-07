@@ -16,7 +16,7 @@
                     </div>
                     <div class="cat-cap">
                         <h5><a href="#">{{__('messages.service-item-1')}}</a><br></h5>
-                        <p>{{__('messages.service-item-1-description')}}</p>
+                        <p>{{__('messages.service-item-description-1')}}</p>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@
                     </div>
                     <div class="cat-cap">
                         <h5><a href="#">{{__('messages.service-item-2')}}</a><br></h5>
-                        <p>{{__('messages.service-item-1-description')}}</p>
+                        <p>{{__('messages.service-item-description-2')}}</p>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                     </div>
                     <div class="cat-cap">
                         <h5><a href="#">{{__('messages.service-item-3')}}</a><br></h5>
-                        <p>{{__('messages.service-item-1-description')}}</p>
+                        <p>{{__('messages.service-item-description-3')}}</p>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                     </div>
                     <div class="cat-cap">
                         <h5><a href="#">{{__('messages.service-item-4')}}</a><br></h5>
-                        <p>{{__('messages.service-item-4-description')}}</p>
+                        <p>{{__('messages.service-item-description-4')}}</p>
                     </div>
                 </div>
             </div>

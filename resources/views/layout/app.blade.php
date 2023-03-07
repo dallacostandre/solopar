@@ -156,7 +156,7 @@
                                 <ul>
                                     <li><a href="#">{{__('messages.why')}}</a></li>
                                     <li><a href="#"> {{__('messages.review')}}</a></li>
-                                    <li><a href="#">{{__('messages.customers')}}</a></li>
+                                    {{-- <li><a href="#">{{__('messages.customers')}}</a></li> --}}
                                 </ul>
                             </div>
                         </div>
