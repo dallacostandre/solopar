@@ -216,11 +216,8 @@
                 </div>
             </section>
         </div> --}}
-
-
         @component('componentes.call-to-action')
         @endcomponent
-
         <div class="contact-form testimonial-area section-padding40 mb-40">
             <div class="container">
                 <div class="row justify-content-center">
