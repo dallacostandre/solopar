@@ -61,7 +61,7 @@
             <div class="row no-gutters">
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-gallery text-center">
-                        <div class="gallery-img" style="background-image: url(img/gallery/gallery1.png);"></div>
+                        <div class="gallery-img" style="background-image: url(img/gallery/gallery1.webp);"></div>
                         <div class="thumb-content-box">
                             <div class="thumb-content">
                                 <h3>{{__('messages.service1')}}</h3>
@@ -73,7 +73,7 @@
                 </div>
                 {{-- <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-gallery no-margin text-center">
-                        <div class="gallery-img" style="background-image: url(img/gallery/gallery2.png);"></div>
+                        <div class="gallery-img" style="background-image: url(img/gallery/gallery2.webp);"></div>
                         <div class="thumb-content-box">
                             <div class="thumb-content">
                                 <h3>{{__('messages.service2')}}</h3>
@@ -85,7 +85,7 @@
                 </div> --}}
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-gallery text-center">
-                        <div class="gallery-img" style="background-image: url(img/gallery/gallery3.png);"></div>
+                        <div class="gallery-img" style="background-image: url(img/gallery/gallery3.webp);"></div>
                         <div class="thumb-content-box">
                             <div class="thumb-content">
                                 <h3>{{__('messages.service4')}}</h3>
