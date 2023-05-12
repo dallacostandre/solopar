@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -9,49 +10,61 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 
-	<!-- CSS here -->
-	<link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-	<link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
-	<link rel="stylesheet" href="{{asset('css/slicknav.css')}}">
+    <!-- CSS here -->
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/slicknav.css')}}">
     <link rel="stylesheet" href="{{asset('css/flaticon.css')}}">
     <link rel="stylesheet" href="{{asset('css/progressbar_barfiller.css')}}">
     <link rel="stylesheet" href="{{asset('css/gijgo.css')}}">
     <link rel="stylesheet" href="{{asset('css/animate.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/animated-headline.css')}}">
-	<link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
-	<link rel="stylesheet" href="{{asset('css/fontawesome-all.min.css')}}">
-	<link rel="stylesheet" href="{{asset('css/themify-icons.css')}}">
-	<link rel="stylesheet" href="{{asset('css/slick.css')}}">
-	<link rel="stylesheet" href="{{asset('css/nice-select.css')}}">
-	<link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{asset('css/fontawesome-all.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/themify-icons.css')}}">
+    <link rel="stylesheet" href="{{asset('css/slick.css')}}">
+    <link rel="stylesheet" href="{{asset('css/nice-select.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <style>
-        .float{
+        .float {
             position: fixed;
-    width: 50px;
-    height: 50px;
-    bottom: 83px;
-    right: 31px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
-}
+            width: 50px;
+            height: 50px;
+            bottom: 83px;
+            right: 31px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
 
-.my-float{
-	margin-top:12px;
-}
+        .my-float {
+            margin-top: 12px;
+        }
     </style>
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-N7HMBH5');</script>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N7HMBH5');
+    </script>
     <!-- End Google Tag Manager -->
 </head>
+
 <body>
     <!-- ? Preloader Start -->
     <div id="preloader-active">
@@ -72,8 +85,8 @@
                         <div class="col-xl-12">
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left">
-                                    <ul>     
-                                        <li><i class="fab fa-whatsapp"></i> <a href="http://wa.me/{{__('messages.whatsapp_number')}}" target="_blank" >{{__('messages.whatsapp')}}</a></li>
+                                    <ul>
+                                        <li><i class="fab fa-whatsapp"></i> <a href="http://wa.me/{{__('messages.whatsapp_number')}}" target="_blank">{{__('messages.whatsapp')}}</a></li>
                                         <li><i class="fas fa-phone"></i> <a href="tel:{{__('messages.phone')}}">{{__('messages.phone')}}</a></li>
                                         <li><i class="far fa-envelope"></i><a href="mailto:{{__('messages.email')}}"> {{__('messages.email')}}</a></li>
                                         <li><a href="{{__('messages.facebook')}}"><i class="fa fa-facebook"></i></a></li>
@@ -100,18 +113,18 @@
                                 <div class="menu-wrapper d-flex text-right">
                                     <!-- Main-menu -->
                                     <div class="main-menu d-none d-lg-block">
-                                        <nav> 
-                                            <ul id="navigation">                                                                                          
+                                        <nav>
+                                            <ul id="navigation">
                                                 <li><a href="{{route('home')}}">{{__('messages.web-site-name')}}</a></li>
                                                 <li><a href="{{route('about')}}">{{__('messages.about')}}</a></li>
                                                 <li><a href="{{route('services')}}">{{__('messages.services')}}</a></li>
                                                 {{-- <li><a href="{{route('projects')}}">{{__('messages.projects')}}</a></li> --}}
                                                 {{-- <li><a href="{{route('blog')}}">Blog</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="{{route('blog')}}">Blog</a></li>
-                                                        <li><a href="blog_details.html">Blog Details</a></li>
-                                                        <li><a href="elements.html">Element</a></li>
-                                                    </ul>
+                                                <ul class="submenu">
+                                                    <li><a href="{{route('blog')}}">Blog</a></li>
+                                                    <li><a href="blog_details.html">Blog Details</a></li>
+                                                    <li><a href="elements.html">Element</a></li>
+                                                </ul>
                                                 </li> --}}
                                                 {{-- <li><a href="#">Pages</a>
                                                     <ul class="submenu">
@@ -125,7 +138,7 @@
                                         </nav>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                             <!-- Mobile Menu -->
                             <div class="col-12">
                                 <div class="mobile_menu d-block d-lg-none"></div>
@@ -142,9 +155,9 @@
 
     <footer>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="http://wa.me/{{__('messages.whatsapp_number')}}" class="float" target="_blank">
-<i class="fa fa-whatsapp my-float"></i>
-</a>
+        <a href="http://wa.me/{{__('messages.whatsapp_number')}}" class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
         <!-- Footer Start-->
         <div class="footer-area footer-padding">
             <div class="container">
@@ -185,14 +198,17 @@
                             </div>
                             <div class="footer-number">
                                 <p>Contato: <br>
-                                    <span class="info1">{{__('messages.phone')}}</span></p>
+                                    <span class="info1">{{__('messages.phone')}}</span>
+                                </p>
                                 <p>WhatsApp: <br>
-                                    <a href="http://wa.me/+5541997472046" style="color: #11295E">{{__('messages.whatsapp')}}</a></p>
+                                    <a href="http://wa.me/+5541997472046" style="color: #11295E">{{__('messages.whatsapp')}}</a>
+                                </p>
                                 <p>Email: <br>
-                                    <span class="info1">{{__('messages.email')}}</span></p>
+                                    <span class="info1">{{__('messages.email')}}</span>
+                                </p>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -219,6 +235,7 @@
             </div>
         </div>
         <!-- Footer End-->
+        @include('cookie-consent::index')
     </footer>
     <!--? Search model Begin -->
     <div class="search-model-box">
@@ -231,7 +248,7 @@
     </div>
     <!-- Search model end -->
     <!-- Scroll Up -->
-    <div id="back-top" >
+    <div id="back-top">
         <a title="Voltar ao Topo" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
 
@@ -260,7 +277,7 @@
     <script src="{{asset('js/jquery.sticky.js')}}"></script>
     <!-- Progress -->
     <script src="{{asset('js/jquery.barfiller.js')}}"></script>
-    
+
     <!-- counter , waypoint,Hover Direction -->
     <script src="{{asset('js/jquery.counterup.min.js')}}"></script>
     <script src="{{asset('js/waypoints.min.js')}}"></script>
@@ -273,9 +290,10 @@
     <script src="{{asset('js/jquery.validate.min.js')}}"></script>
     <script src="{{asset('js/mail-script.js')}}"></script>
     <script src="{{asset('js/jquery.ajaxchimp.min.js')}}"></script>
-    
-    <!-- Jquery Plugins, main Jquery -->	
+
+    <!-- Jquery Plugins, main Jquery -->
     <script src="{{asset('js/plugins.js')}}"></script>
     <script src="{{asset('js/main.js')}}"></script>
-    </body>
+</body>
+
 </html>
