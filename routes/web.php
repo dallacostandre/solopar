@@ -37,7 +37,8 @@ Route::post('/email', function (Request $request) {
             $m->subject('Novo Solicitacao via Site');
         }
     );
-    return view('pages.index');
+    // return redirect('/')->with('success', 'Mensagem enviada com sucesso!');
+    return redirect()->back()->with('message', 'Mensagem enviada com sucesso!');
 });
 
 
