@@ -20,4 +20,4 @@ jobs:
         server: ${{ secrets.ftp_host }}
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
-        server-dir: soloparfundacoes.com.br/
+        server-dir: public_html/
