@@ -2,7 +2,7 @@
 @section('content')
 <main>
     <!--? Hero Start -->
-    <div class="slider-area2 section-bg2" data-background="img/hero/hero2.webp">
+    <div class="slider-area2 section-bg2"  data-background="img/hero/hero2.webp">
         <div class="slider-height2 d-flex align-items-center">
             <div class="container">
                 <div class="row">

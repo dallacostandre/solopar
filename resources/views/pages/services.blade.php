@@ -5,6 +5,7 @@
             text-align: center;
             margin-top: 30px;
         }
+        
 
         .image_service {
             width: 50%
