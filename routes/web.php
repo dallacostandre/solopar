@@ -34,7 +34,7 @@ Route::post('/email', function (Request $request) {
         function ($m) {
             $m->getHeaders()->addTextHeader('X-Mailgun-Tag', 'solopar_site');
             $m->from('contato@soloparfundacoes.com.br', 'Solopar Site');
-            $m->to('soloparfundacoes@hotmail.com.br');
+            $m->to('contato@soloparfundacoes.com.br');
             $m->subject('Novo Contato via Site');
         }
     );
